@@ -1,8 +1,9 @@
 language: node_js
-node_js:
- - "node"
+node_js: node
 deploy:
   provider: heroku
-  api_key:"21d253b59f200da59736a77802147ef7855016e41"
+  api_key:
+    secure: gMDIAiwMg5fVHF0ccSEvITD0cFe6fAGUwR4B1PMBmZrWRB4ydWFU9jusybOPsmIevQnzLuLho+BoqwZGj6Y96OcIZxc9yjZGQckq/OEQUyJ9Bo2kNRz6ZqsFvW1VSyP5hH9Es/KodjMR1NhGY2zxDqLVVPz9clGNzyEd6SjJJFkN8aE31asfFQfDKkY1dp70VGVqwDTt3fUb+C2xqroV4K+eLdjSqkSLleGq97BH9qrfSIUoQ7W3l3Oa3UNfLj9nbdhewRoxoeJTHYlvQbg4JE2jxPuGnSr8rppDhgg1Xr75OjnIuH7gNIbYN+m1ZB277CQq9lluJiVfJC1kiOxa6GlGNwn4VcGkkzV+vDjIWS8tMKouOiIUUOupy8eDgu90vcoUjogVbJ3rWFEJpYRAqtpVsxQ7oH5iNU6+lFYJEszWbbTfsQOp7K1hU6grh3w0sQbDt9p2pxCh90jXPDVcKcQ5Ns+lOdp7NNJg5JlRpwN3g/5iPUj4UGoZg+1a80olXQ6PW8cD9ljAbtPdx8fxeMSKiY0z7Bo8QTNxVYUkLoul/DM3oxdLyapPNDfL1cI5TBZ5h3Dq0ChrfhbfQs4cjy+kHenrPZQp1YNWU7KjBVMTNuTSBPfMw799w/5hFdIxarZ+qbO2qDb/6TSDO264EOy+eyu0ct8+rr5EwwdWJQY=
   app: shaijutest
-  run: "node hello.js"
+  on:
+    repo: shaijumt/hello

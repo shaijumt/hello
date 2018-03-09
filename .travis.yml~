@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: 
+  app: shaijutest
+  on:
+    repo: shaijumt/hello
+  21d253b59f200da59736a77802147ef7855016e41:
+    secure: LJLmorOnti2DWWmt5+xUlrU9rF9JT4fVhTZGH+aB1kxO7snVQzOCqansCPPZAUxubk0ScIF8NfZvCUVu+noCDp5ht1xFYqOgcuuFX77OKXmAtpKRkssiecOaaAHahld86tXCLC48VU+SUtyMpMHbpfpVvZtahJLupOYpHrEZOu8BbmQPShNCHhEYom54hXxYfds9m2tUQ0HTCgMTQv6z77V11h/IdZh+UF/SH8xde5aIQkw0pgbEXVXyD/pSSTMFu5Yldlup64jhJEfgjmkIGfObdAagSVQ/xcyaAgxRDnCJPnr1pNFLMy6gegOjwMZ59XbzXU04HqjgzYlSvjQcE/8ICyN9ect/3gWVFQ3MoNTNGmdcjg5rtTVLW1tO1bwwQ6zk00STpxc3Pfayn0Fo4rfm2xiUrkM0oUv3WViyuK6gfY36OFjWpMmLJJyhU0FXA4QjYt6/OfQExg0bAmaNiOBCuiYmg1IjtcKQPzpZOfHJBVvb57yFJEZfzJ5t1CgEGwQn+WSdF6vh4jqfkmo3e+oN1B8vm9bIfW2v22PaSd55h9a1UWtrAIPJt2+j7x9VZXJGVTtAn3J9cVgZRZ2Qs2V87HiuWrt3DohLMG0YRoU4wHf+ux0KJVlyt4WlmnrUIKPk4zMBRqvX6oBqU6A5Pw192K/0ugkZKZT/H1LqbZk=
