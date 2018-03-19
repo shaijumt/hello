@@ -1,6 +1,6 @@
 var http = require('http');
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello TraviS! \n');  // Test fails here!
+  res.end('Hello TraviSgg! \n');  // Test fails here!
 }).listen(80, 'shaijutest.herokuapp.com');
 console.log('Server running at http://shaijutest.herokuapp.com/');
